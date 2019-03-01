@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
  client.on("ready", () => {
  
-     var guild = client.guilds.get('server id');//أيدي سيرفرك
+     var guild = client.guilds.get('508627023808430130');//أيدي سيرفرك
          setInterval(function(){
 var role = guild.roles.find(role=> role.name === 'Rainbow');//إسم الرتبة
 if(!role) return;
