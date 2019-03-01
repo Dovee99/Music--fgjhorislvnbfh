@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();// npm install discord.js --save
  
 
-lient.on("ready", () => {
+
     
      var guild = client.guilds.get('508627023808430130');
          setInterval(function(){
