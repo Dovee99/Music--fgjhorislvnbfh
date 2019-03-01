@@ -16,7 +16,7 @@ if(!role) return;
 
 
 
-client.login("token bot");
+
     
     
  
