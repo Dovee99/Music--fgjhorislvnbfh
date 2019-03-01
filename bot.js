@@ -3,9 +3,9 @@ const client = new Discord.Client();// npm install discord.js --save
  
 lient.on("ready", () => {
 
-     var guild = client.guilds.get('اي دي السيرفر');
+     var guild = client.guilds.get('508627023808430130');
          setInterval(function(){
-var role = guild.roles.find(role=> role.name === 'اسم الرتبة');
+var role = guild.roles.find(role=> role.name === 'Support Team');
 if(!role) return;
              role.edit({
                  color : "RANDOM"
