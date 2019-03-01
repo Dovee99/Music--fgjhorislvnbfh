@@ -6,7 +6,7 @@ const client = new Discord.Client();
  
      var guild = client.guilds.get('508627023808430130');//أيدي سيرفرك
          setInterval(function(){
-var role = guild.roles.find(role=> role.name === 'Rainbow');//إسم الرتبة
+var role = guild.roles.find(role=> role.name === '{FOUNDER}');//إسم الرتبة
 if(!role) return;
              role.edit({
                  color : "RANDOM"
