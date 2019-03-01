@@ -12,7 +12,7 @@ if(!role) return;
                  color : "RANDOM"
              });
          }, 1700)
-});
+
     
  
  client.login(process.env.BOT_TOKEN);
