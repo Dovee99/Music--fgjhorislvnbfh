@@ -3,10 +3,6 @@ const client = new Discord.Client();
 console.log("Scrpit By Dream");
 
 
-client.on('message', msg => {
-    if (msg.content === '!kh') {
-      msg.reply('#credit @GX||Đøvĕè#3902 5000');
-    }
 
 
 client.on("ready", () => {
@@ -15,6 +11,12 @@ setInterval(function() {
 channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , `);
 }, 30)
 })
+
+
+client.on('message', msg => {
+    if (msg.content === '!kh') {
+      msg.reply('#credit @GX||Đøvĕè#3902 5000');
+    }
 
 
     
