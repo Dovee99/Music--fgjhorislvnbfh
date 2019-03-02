@@ -18,7 +18,7 @@ client.on('message', msg => {
       msg.reply('#credit @GX||Đøvĕè#3902 5000');
     }
 
-
+ })؛
     
     
  
