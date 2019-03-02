@@ -13,13 +13,17 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 })
 
 
-client.on('message', msg => {
-    if (msg.content === '!kh') {
-      msg.reply('#credit @GX||Đøvĕè#3902 5000');
-    }
-
- })
-    
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+         client.on('message', message => {
+            if (message.content === '!kh') {
+              message.channel.send('#credit @GX||Đøvĕè#3902 5000');
+              message.channel.sendFile("./photoshop.PNG");
+               
+ 
+            }
+});
     
  
  client.login(process.env.BOT_TOKEN);
