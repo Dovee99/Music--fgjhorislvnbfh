@@ -18,9 +18,8 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!kh') {
-              message.channel.send('#credit ${user} 5000');
-              message.channel.sendFile("./photoshop.PNG");
-               
+                  msg.reply('#credit ${user} 5000');
+              
  
             }
 });
