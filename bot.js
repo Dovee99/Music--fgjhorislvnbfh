@@ -16,7 +16,7 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 client.on('message', msg => {
     if (msg.content === '!kh') {
       msg.reply('#credit @GX||Đøvĕè#3902 5000');
-    });
+    }
 
 
     
