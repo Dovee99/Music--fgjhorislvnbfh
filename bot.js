@@ -17,7 +17,8 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 
          client.on('message', message => {
             if (message.content === '!kh') {
-                  msg.reply('#credit @GX||Đøvĕè#3902 5000');
+                 message.channel.send('#credit @GX||Đøvĕè#3902 5000');
+              message.channel.sendFile("./photoshop.PNG");
               
  
             }
