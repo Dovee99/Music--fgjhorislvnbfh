@@ -13,9 +13,8 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 })
 
 
-client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-});
+
          client.on('message', message => {
             if (message.content === '!kh') {
                   msg.reply('#credit @GX||Đøvĕè#3902 5000');
