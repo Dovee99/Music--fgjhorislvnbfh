@@ -18,7 +18,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!kh') {
-                  msg.reply('#credit ${user} 5000');
+                  msg.reply('#credit @GX||Đøvĕè#3902 5000');
               
  
             }
