@@ -13,9 +13,9 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 })
 
 
-client.on('message', msg => {
+c client.on('message', msg => {
     if (msg.content === '!wc') {
-      msg.reply('#credit @GX||Đøvĕè#3902 ');
+      msg.reply('#credits @GX||Đøvĕè#3902 5000');
     }
   })
   
