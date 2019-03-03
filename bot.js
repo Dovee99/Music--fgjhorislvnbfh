@@ -17,13 +17,12 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!kh') {
-              message.channel.send('#credit ada  5000');
+              message.channel.send('#credit @GX||Đøvĕè  5000');
               message.channel.sendFile("./photoshop.PNG");
 
  
             }
 });
-    
  
  client.login(process.env.BOT_TOKEN);
 
