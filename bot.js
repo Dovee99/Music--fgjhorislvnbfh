@@ -13,13 +13,13 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 })
 
 client.on('ready', () => {
-  console.log(Logged in as ${client.user.tag}!);
+  console.log(`Logged in as ${client.user.tag}!`);
 });
          client.on('message', message => {
-            if (message.content === '!kh') {
-              message.channel.send('#credit @GX||Đøvĕè  5000');
+            if (message.content === 'السلام عليكم ورحمة الله وبركاته') {
+              message.channel.send('**وعليكم السلام ورحمة الله وبركاته**');
               message.channel.sendFile("./photoshop.PNG");
-
+               
  
             }
 });
