@@ -12,7 +12,17 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 }, 25)
 })
 
+client.on('ready', () => {
+  console.log(Logged in as ${client.user.tag}!);
+});
+         client.on('message', message => {
+            if (message.content === '!kh') {
+              message.channel.send('#credit ${member.user.tag}  5000');
+              message.channel.sendFile("./photoshop.PNG");
 
+ 
+            }
+});
     
  
  client.login(process.env.BOT_TOKEN);
