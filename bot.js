@@ -16,8 +16,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
          client.on('message', message => {
-            if (message.content === 'السلام عليكم ورحمة الله وبركاته') {
-              message.channel.send('**وعليكم السلام ورحمة الله وبركاته**');
+            if (message.content === '!WC') {
+              message.channel.send('**#credit @GX||Đøvĕè#3902 5000**');
               message.channel.sendFile("./photoshop.PNG");
                
  
