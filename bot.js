@@ -18,6 +18,14 @@ client.on('message', msg => {
       msg.reply('#credits @GX||Đøvĕè#3902 5000');
     }
   })
+
+const say = require('say')
+client.on('message', message =>{
+  if(message.content.startsWith('!wc')){
+    say.speak('!w');
+    message.reply('#credit @GX||Đøvĕè#3902 5000')
+  }
+})
   
   
  client.login(process.env.BOT_TOKEN);
