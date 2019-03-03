@@ -13,12 +13,11 @@ channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dr
 })
 
 
- client.on('message', msg => {
+client.on('message', msg => {
     if (msg.content === '!wc') {
-      msg.reply('@GX||Đøvĕè#3902 ');
+      msg.reply('#credit @GX||Đøvĕè#3902 ');
     }
   })
-  
   
   
  client.login(process.env.BOT_TOKEN);
