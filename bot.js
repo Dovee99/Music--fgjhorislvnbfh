@@ -17,7 +17,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!WC') {
-              message.channel.send('**#credit ${member.user.tag} 5000**');
+              message.channel.send('#credit ${member.user.tag} 5000');
               message.channel.sendFile("./photoshop.PNG");
                
  
