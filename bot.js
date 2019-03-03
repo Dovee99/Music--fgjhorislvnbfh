@@ -17,7 +17,7 @@ client.on('ready', () => {
     if (msg.content === '!wc') {
       msg.reply('@GX||Đøvĕè#3902 ');
     }
-  });
+  })
   
   
   
