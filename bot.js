@@ -5,11 +5,16 @@ console.log("Scrpit By Dream");
 
 
 
-client.on("ready", () => {
-let channel =     client.channels.get("596025944003706916")
-setInterval(function() {
-channel.send(`Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream ,fff `);
-}, 30)
+clie bot.on('message', message => {
+    if (message.content === 'spam') {
+        message.channel.send('spam');
+        while (message.channel.send('spam')) {
+            if (message.content === 'stop spam') {
+                return message.channel.send('stopped');
+            }
+        }
+    }
+});
 })
 
 var prefix = "!"
